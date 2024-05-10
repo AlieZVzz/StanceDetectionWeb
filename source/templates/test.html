@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>武汉大学人机交互中心</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        #logo {
+            width: 100px; /* 根据实际Logo大小调整 */
+        }
+        #graph-display, #image-display {
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>武汉大学人机交互中心</h1>
+        <img id="logo" src="path_to_logo.png" alt="Wuhan University HCI Center Logo">
+
+        <h2>输入区域</h2>
+        <input type="text" placeholder="输入1">
+        <input type="text" placeholder="输入2">
+        <input type="text" placeholder="输入3">
+
+        <div id="graph-display">
+            <p>这里是Neo4j图谱展示区域</p>
+            <!-- 实际图谱展示代码需要根据使用的库或框架来编写 -->
+        </div>
+
+        <div id="image-display">
+            <p>这里是图片展示区域</p>
+            <!-- 图片展示可以通过<img>标签或者其他方式实现 -->
+        </div>
+    </div>
+</body>
+</html>
